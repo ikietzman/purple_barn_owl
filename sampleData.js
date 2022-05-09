@@ -38,6 +38,7 @@ function main() {
     }
   })();
 
+  // This function uses async/await egregiously to force data creation sychronicity. It looks gross, but it works
   async function loadData() {
     await User.create({ userPrivilegeLevel: 0, userName: "Tom" })
     await User.create({ userPrivilegeLevel: 1, userName: "Jane" })
