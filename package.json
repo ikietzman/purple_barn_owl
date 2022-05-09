@@ -1,0 +1,19 @@
+{
+  "name": "Purple Barn Owl",
+  "version": "1.0.0",
+  "description": "A mock application experimenting with fabricated MTD remote site monitoring data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ian Kietzman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
