@@ -35,7 +35,7 @@ nodemon app
 
 ## Notes
 
-In order to authenticate property to use the application you will need to manually set some cookies. They are:
+In order to authenticate properly to use the application you will need to manually set some cookies. They are:
 
 - userID  
 - userToken  
@@ -44,7 +44,7 @@ In order to authenticate property to use the application you will need to manual
 
 The userID, userToken, and trustedDeviceID will be subjected to some authentication/authorization middleware, so you may need to look into the database to decide what combinations are appropriate to user together.
 
-The applicationIP goes through a separate piece of middleware which checks that 1) the application IP exists in the database, 2) the application at that IP is not compromised, and 3) the application at that IP is available .Again, this must match data found in the database.
+The applicationIP goes through a separate piece of middleware which checks that 1) the application IP exists in the database, 2) the application at that IP is not compromised, and 3) the application at that IP is currently available. Again, this must match data found in the database.
 
 ----------------------------
 
