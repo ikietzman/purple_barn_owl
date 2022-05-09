@@ -28,10 +28,10 @@ nodemon app
 
 ## Endpoints
 
-GET /sites -- returns all sites associated with the authenticated user
-GET /site/:siteid -- returns a single site associated with the authenticated user
-GET /site/:site/process/:processid -- returns a single process from a single site associated with the authenticated user
-POST /flags -- creates a new flag associated with the authenticated user, single site, and single process
+- GET /sites -- returns all sites associated with the authenticated user  
+- GET /site/:siteid -- returns a single site associated with the authenticated user  
+- GET /site/:site/process/:processid -- returns a single process from a single site associated with the authenticated user  
+- POST /flags -- creates a new flag associated with the authenticated user, single site, and single process  
 
 ## Notes
 
