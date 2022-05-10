@@ -8,6 +8,7 @@ const { sequelize } = require('../db/db_connection')
 
 const router = express.Router()
 
+// Get all sites associated with the authenticated user
 router.get('/sites', async (req, res) => {
   const userSites = await UserSite.findAll({
     where: {

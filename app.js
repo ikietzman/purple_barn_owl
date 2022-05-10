@@ -16,9 +16,6 @@ app.use(authMiddleware)
 app.use(checkApplicationStatus)
 app.use('/', router)
 
-// Get all sites associated with the authenticated user
-
-
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
