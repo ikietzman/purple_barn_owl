@@ -1,6 +1,6 @@
 'use strict'
 
-var bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser');
 const express = require('express')
 const { QueryTypes } = require('sequelize');
