@@ -1,6 +1,6 @@
 'use strict'
 
-const { User, TrustedDevice, Session, ApplicationIP } = require('./schema')
+const { User, TrustedDevice, Session, ApplicationIP } = require('../db/schema')
 
 // Check that stored cookies match database info for user, session, and client device
 async function authMiddleware (req, res, next) {

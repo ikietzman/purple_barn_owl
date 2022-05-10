@@ -2,7 +2,7 @@
 
 const { DataTypes, Model } = require('sequelize');
 
-const { sequelize } = require('./db_connection')
+const { sequelize } = require('../db/db_connection')
 
 class User extends Model {}
 class UserSite extends Model {}

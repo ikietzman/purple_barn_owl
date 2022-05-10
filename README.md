@@ -14,7 +14,7 @@ Change the username, password, host, and port in the connection string in db_con
 
 Load the sample data:
 ```
-node sampleData
+node ./db/sampleData
 ```
 
 Fire up the dev server:
