@@ -1,6 +1,6 @@
 # Purple Barn Owl: A mock application using Express + Sequelize ORM + MySQL
 
-This application and README assume you have a running MySQL instance to connect to.
+This application and README assume you have Node.js V.16+ and a running MySQL instance to connect to.
 
 ## Install
 
